@@ -1,0 +1,102 @@
+body {
+    margin: 50px;
+    padding: 10px 30px 10px 70px;
+    background-color: rgb(237, 211, 243);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+table {
+    background-color: rgb(141, 178, 221);
+}
+
+strong {
+    background-color: pink;
+}
+
+h3 {
+    color: hsl(231, 94%, 49%);
+}
+
+.logo {
+    float: left;
+    height: 50px;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+#header {
+    padding: 5px 0px;
+    color: #403F3F;
+    text-align: center;
+    margin: auto;
+    border-bottom: 1px solid;
+}
+
+nav {
+    /* display: inline; */
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li>a {
+    display: block;
+    color: rgb(240, 57, 96);
+    padding: 5px 7px;
+    text-decoration: none;
+    float: right;
+}
+
+.moves {
+    text-decoration: none;
+    float: right;
+    margin: auto;
+    /* padding: 0px 0px 0px 15px; */
+    /* display: inline; */
+    color: rgb(53, 21, 10)
+}
+
+@media (min-width:320px) {
+    .container {
+        width: 320px;
+    }
+}
+
+@media (min-width:481px) {
+    .container {
+        width: 481px;
+    }
+}
+
+@media (min-width:641px) {
+    .container {
+        width: 641px;
+    }
+}
+
+@media (min-width:961px) {
+    .container {
+        width: 961px;
+    }
+}
+
+@media (min-width:1000px) {
+    .container {
+        width: 1000px;
+    }
+}
+
+@media (max-width:481px) {
+    .box {
+        width: 100%;
+    }
+    #image {
+        width: 100%;
+    }
+    h2 {
+        text-align: center;
+    }
+}
